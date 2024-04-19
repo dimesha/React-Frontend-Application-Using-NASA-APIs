@@ -1,4 +1,4 @@
-# UTMS-University-Timetable-Management-System---MERN-Stack
+# React-Frontend-Application-Using-NASA-APIs---MERN-Stack
 ### In this assignment, I have been developed a creative frontend application using React functional components. The application will consume data from NASA's public APIs available at NASA API portal. This project aims to showcase my skills in front-end development, integration with external APIs, and application deployment.Built with the MERN stack (MongoDB, Express. js, React, Node. js).
 
 ## Functional requirements
