@@ -9,6 +9,8 @@ import HeroSection from "./component/HeroSection.jsx";
 import APOD from "./pages/AstronomyDay.jsx";
 import MARS from "./pages/MarsRoverPhoto.jsx";
 import HomePage from "./pages/Home.jsx";
+import SignIn from './pages/SignIn';
+import SignUp from './pages/SignUp';
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
       <HeaderSection />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/sign-in" element={<SignIn />}/>
+        <Route path="/sign-up" element={<SignUp />}/>
         <Route path="/main" element={<MainSection />} />
         <Route path="/apod" element={<APOD />} />
         <Route path="/mars" element={<MARS />} />
