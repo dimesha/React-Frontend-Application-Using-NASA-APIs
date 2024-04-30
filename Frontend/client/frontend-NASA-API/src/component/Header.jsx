@@ -10,7 +10,7 @@ export default function Header() {
   return (
     <Navbar className="border-b-2">
       <div className="flex items-center flex-shrink-0 text-black mr-6">
-        <img className="mr-3 h-11 sm:h-9" src={nasaLogo} />
+        <img className="hover:animate-shake animate-once mr-3 h-11 sm:h-9" src={nasaLogo} />
         <span className="font-bold text-xl tracking-tight">
           NASA API READER
         </span>

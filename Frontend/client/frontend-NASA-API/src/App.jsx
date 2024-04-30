@@ -7,6 +7,7 @@ import FeatureSection from "./component/FeatureSection.jsx";
 import CarousalSection from "./component/CarousalSection.jsx";
 import HeroSection from "./component/HeroSection.jsx";
 import APOD from "./pages/AstronomyDay.jsx";
+import MARS from "./pages/MarsRoverPhoto.jsx";
 import HomePage from "./pages/Home.jsx";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/main" element={<MainSection />} />
         <Route path="/apod" element={<APOD />} />
+        <Route path="/mars" element={<MARS />} />
         <Route path="/hero" element={<HeroSection />} />
         <Route path="/feature" element={<FeatureSection />} />
         <Route path="/carousal" element={<CarousalSection />} />

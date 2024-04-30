@@ -52,6 +52,7 @@ export default {
   },
   plugins: [
     flowbite.plugin(),
+    require('tailwindcss-animated'),
   ],
   theme: {
     screens: {
