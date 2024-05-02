@@ -25,7 +25,7 @@ const userSchema = new mongoose.Schema({
     },
     profilePicture: {
         type: String,
-        default:'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.zilvitismazeikiai.lt%2FAvatar-icon-Human-A-person-s-badge-Vector-Social-media-746807.html&psig=AOvVaw2dWBNrrPaK42LzicTyw8Bo&ust=1711233622082000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCIDGw5X4iIUDFQAAAAAdAAAAABAE',
+        default:'https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png',
       },
       isAdmin: {
         type: Boolean,
