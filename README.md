@@ -27,4 +27,4 @@ if changed PORT is not 3000, make appropriate changes to api request calls, in c
 
 **This is the hosting link**
 
-[This is an external link to host account](https://github.com/dimesha/React-Frontend-Application-Using-NASA-APIs/main)
+[This is an external link to host account](https://nasa-api-reader-by-dimesha.netlify.app/)
