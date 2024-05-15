@@ -8,6 +8,7 @@ import CarousalSection from "./component/CarousalSection.jsx";
 import HeroSection from "./component/HeroSection.jsx";
 import APOD from "./pages/AstronomyDay.jsx";
 import MARS from "./pages/MarsRoverPhoto.jsx";
+import NearEarthObject from "./pages/NearEarthObject.jsx";
 import HomePage from "./pages/Home.jsx";
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
@@ -23,6 +24,7 @@ export default function App() {
         <Route path="/main" element={<MainSection />} />
         <Route path="/apod" element={<APOD />} />
         <Route path="/mars" element={<MARS />} />
+        <Route path="/nearearth" element={<NearEarthObject />} />
         <Route path="/hero" element={<HeroSection />} />
         <Route path="/feature" element={<FeatureSection />} />
         <Route path="/carousal" element={<CarousalSection />} />

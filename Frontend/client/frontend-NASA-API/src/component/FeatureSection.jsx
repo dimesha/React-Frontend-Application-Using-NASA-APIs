@@ -23,11 +23,11 @@ const features = [
     link:"/apod",
   },
   {
-    name: "Mars Weather Service API",
+    name: "Near Earth Object Service API",
     description:
       "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
     icon: GlobeAltIcon,
-    link:"/mars",
+    link:"/nearearth",
   },
   {
     name: "NASA Image and Video Library",
