@@ -39,5 +39,5 @@ describe('MarsRoverPhoto component', () => {
     });
   });
 
-  // Add more test cases to cover other scenarios, such as error handling
+  
 });

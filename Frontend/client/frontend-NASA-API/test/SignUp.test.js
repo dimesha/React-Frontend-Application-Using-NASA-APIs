@@ -14,7 +14,7 @@ describe('SignUp component', () => {
     
     // Ensure important elements are rendered
     expect(getByText('NASA API Reader')).toBeInTheDocument();
-    expect(getByText('This is a demo project. You can sign up with your email and password or with Google.')).toBeInTheDocument();
+    expect(getByText(' You can sign up with your email and password or with Google.')).toBeInTheDocument();
     expect(getByPlaceholderText('Username')).toBeInTheDocument();
     expect(getByPlaceholderText('name@company.com')).toBeInTheDocument();
     expect(getByPlaceholderText('Password')).toBeInTheDocument();
@@ -32,5 +32,5 @@ describe('SignUp component', () => {
     });
   });
 
-  // Add more test cases to cover other scenarios, such as successful form submission and error handling
+ 
 });

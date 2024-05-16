@@ -3,6 +3,7 @@ import { Breadcrumb } from "flowbite-react";
 import { Link } from "react-router-dom";
 import { HiHome } from "react-icons/hi";
 import { Card, Spinner } from "flowbite-react";
+import moonImage from '../assets/moon.jpg'
 
 export default function NearEarthObjects() {
   const [data, setData] = useState(null);
@@ -59,7 +60,7 @@ export default function NearEarthObjects() {
         <Breadcrumb.Item>Near Earth Objects</Breadcrumb.Item>
       </Breadcrumb>
 
-      <h1 className="text-3xl font-bold text-left">Near Earth Objects</h1>
+      <h1 className="text-3xl font-bold text-center text-red-400">Near Earth Objects</h1>
       
       <div className="flex justify-between items-center mb-4">
         <div>
@@ -87,11 +88,11 @@ export default function NearEarthObjects() {
       <div className="grid gap-8 laptop:grid-cols-3 tablet:grid-cols-1">
         {Object.keys(data).map(date => (
           data[date].map(neo => (
-            <Card key={neo.id} className="max-w-sm" >
+            <Card key={neo.id} className="max-w-sm bg-hero-pattern3 bg-cover">
               <h5 className="text-2xl font-bold tracking-tight text-green-800 dark:text-white">
                 {neo.name}
               </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
+              <p className="font-normal text-white dark:text-white">
                 <strong>Close Approach Date:</strong> {neo.close_approach_data[0].close_approach_date}<br />
                 <strong>Miss Distance:</strong> {neo.close_approach_data[0].miss_distance.kilometers} km<br />
                 <strong>Velocity:</strong> {neo.close_approach_data[0].relative_velocity.kilometers_per_hour} km/h<br />
